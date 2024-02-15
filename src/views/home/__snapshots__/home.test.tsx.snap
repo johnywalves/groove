@@ -1,0 +1,855 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeView /> should render the heading 1`] = `
+.c15 {
+  padding: 2rem;
+  color: var(--color-neutral-100);
+}
+
+.c15 span {
+  color: var(--color-danger);
+}
+
+.c15 a {
+  color: var(--color-primary-pure);
+}
+
+.c15 a:hover {
+  text-decoration: underline;
+}
+
+.c10 {
+  width: 100%;
+  padding: 4rem max(calc((100vw - 80rem) / 2),2rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+.c10 h2 {
+  font-size: 2rem;
+}
+
+.c10 ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.c10 li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.c10 li h3 {
+  color: var(--color-tertiary-pure);
+  font-size: 1.75rem;
+}
+
+.c10 li p {
+  width: 20rem;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.c13 {
+  color: var(--color-neutral-100);
+  border: var(--2px) solid var(--color-primary-pure);
+  border-radius: var(--16px);
+  padding: var(--16px) var(--24px);
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s,color 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary-pure);
+}
+
+.c13 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.c13:hover,
+.c13:focus {
+  color: var(--color-neutral-200);
+  border-color: var(--color-neutral-200);
+}
+
+.c13.skeleton {
+  min-width: 8rem;
+}
+
+.c13:hover,
+.c13:focus {
+  background-color: var(--color-primary-half);
+}
+
+.c14 {
+  display: block;
+}
+
+.c11 {
+  width: 100%;
+  padding: 4rem max(calc((100vw - 80rem) / 2),2rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  gap: 2rem;
+  background-color: var(--color-neutral-200);
+  color: var(--color-neutral-800);
+  font-size: 1.5rem;
+}
+
+.c11 h2 {
+  font-size: 2rem;
+}
+
+.c12 {
+  list-style: none;
+  width: 100%;
+  font-size: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: var(--32px);
+}
+
+.c12 li {
+  display: flex;
+  flex-direction: column;
+  gap: var(--16px);
+  flex: 1 0 16rem;
+  padding: var(--16px);
+  border-radius: var(--16px);
+  background-color: var(--color-neutral-100);
+  box-shadow: 0 0 8px 1px var(--color-shadow),4px 4px 8px 1px var(--color-shadow);
+}
+
+.c12 li>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-neutral-600);
+  border-radius: var(--16px);
+  padding: var(--32px);
+}
+
+.c7 {
+  width: 100%;
+  padding: 4rem max(calc((100vw - 80rem) / 2),2rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  background-color: var(--color-neutral-200);
+  color: var(--color-neutral-800);
+}
+
+.c7 h2 {
+  font-size: 2rem;
+}
+
+.c7>div {
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+}
+
+.c8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.c8 picture {
+  display: block;
+  width: 100%;
+  height: 360px;
+  background-color: var(--color-neutral-300);
+}
+
+.c9 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.c9>p {
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.c9>p strong {
+  color: var(--color-secondary-pure);
+}
+
+.c0 {
+  width: 100%;
+  min-height: 100vh;
+  padding: var(--30px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.c1 {
+  width: min(var(--300px),50%);
+}
+
+.c2 {
+  color: var(--color-primary-pure);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.c3 {
+  font-size: 1.5rem;
+  line-height: 140%;
+  font-weight: 400;
+  width: min(var(--720px),80%);
+}
+
+.c4 {
+  margin: var(--20px) 0;
+  width: min(var(--320px),100%);
+}
+
+.c5 {
+  font-size: 1.5rem;
+}
+
+.c6 {
+  background-color: var(--color-neutral-600);
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid var(--color-neutral-100);
+  border-radius: var(--4px);
+}
+
+@media (max-width:980px) {
+  .c7>div {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:980px) {
+  .c3 {
+    width: 100%;
+  }
+}
+
+<div>
+  <section
+    class="c0"
+  >
+    <img
+      alt="Image with curly brackets in magenta with the text React Next Boilerplate"
+      class="c1"
+      src="/img/logo.svg"
+    />
+    <h1
+      class="c2"
+    >
+      Boilerplate to React, NextJS and TypeScript
+    </h1>
+    <h2
+      class="c3"
+    >
+      Boilerplate with React, NextJS, Typescript, Storybook and Styled Components to get started fast and with minimal configuration
+    </h2>
+    <img
+      alt="Woman in jacket running into an atom"
+      class="c4"
+      src="/img/hero.svg"
+    />
+    <p
+      class="c5"
+    >
+      just run
+    </p>
+    <code
+      class="c6"
+    >
+      <p>
+        [npx or yarn] create next-app -e https://github.com/johnywalves/react-next-boilerplate
+      </p>
+    </code>
+  </section>
+  <section
+    class="c7"
+  >
+    <h2>
+      Facilitating development
+    </h2>
+    <div>
+      <div
+        class="c8"
+      >
+        <picture />
+      </div>
+      <div
+        class="c9"
+      >
+        <p>
+          <strong>
+            Lorem ipsum dolor sit amet
+          </strong>
+          , consectetur adipiscing elit. Duis felis ex, luctus eget euismod a, ornare sed dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vitae pulvinar lorem, at dapibus arcu.
+        </p>
+        <p>
+          <strong>
+            Donec vitae nunc est
+          </strong>
+          . Maecenas gravida nec tellus hendrerit mattis. Donec et nibh non lacus laoreet semper. Maecenas efficitur bibendum libero eget consequat. Mauris ullamcorper nisi id pretium faucibus. Suspendisse vulputate lectus elit, nec vehicula ante tempus convallis.
+        </p>
+        <p>
+          <strong>
+            Praesent tempor placerat ante
+          </strong>
+          , quis luctus dolor consectetur nec. Integer luctus fringilla imperdiet. Praesent felis mauris, tincidunt at tortor vel, commodo ullamcorper neque.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section
+    class="c10"
+  >
+    <h2>
+      Some benefits
+    </h2>
+    <ul>
+      <li>
+        <svg
+          fill="currentColor"
+          height="64"
+          viewBox="0 0 24 24"
+          width="64"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M18,2H8A4,4,0,0,0,4,6V18a4,4,0,0,0,4,4H18a2,2,0,0,0,2-2V4A2,2,0,0,0,18,2ZM6,6A2,2,0,0,1,8,4H18V14H8a3.91,3.91,0,0,0-2,.56ZM8,20a2,2,0,0,1,0-4H18v4ZM10,8h4a1,1,0,0,0,0-2H10a1,1,0,0,0,0,2Z"
+          />
+        </svg>
+        <h3>
+          Lorem ipsum dolor
+        </h3>
+        <p>
+          Duis felis ex, luctus eget euismod a, ornare sed dui
+        </p>
+      </li>
+      <li>
+        <svg
+          fill="currentColor"
+          height="64"
+          viewBox="0 0 24 24"
+          width="64"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19,4H5A3,3,0,0,0,2,7V17a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V7A3,3,0,0,0,19,4ZM5,6H19a1,1,0,0,1,1,1l-8,4.88L4,7A1,1,0,0,1,5,6ZM20,17a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V9.28l7.48,4.57a1,1,0,0,0,1,0L20,9.28Z"
+          />
+        </svg>
+        <h3>
+          Donec vitae nunc
+        </h3>
+        <p>
+          Maecenas gravida nec tellus hendrerit mattis
+        </p>
+      </li>
+      <li>
+        <svg
+          fill="currentColor"
+          height="64"
+          viewBox="0 0 24 24"
+          width="64"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.49,7.52a.19.19,0,0,1,0-.08.17.17,0,0,1,0-.07l0-.09-.06-.15,0,0h0l0,0,0,0a.48.48,0,0,0-.09-.11l-.09-.08h0l-.05,0,0,0L16.26,4.45h0l-3.72-2.3A.85.85,0,0,0,12.25,2h-.08a.82.82,0,0,0-.27,0h-.1a1.13,1.13,0,0,0-.33.13L4,6.78l-.09.07-.09.08L3.72,7l-.05.06,0,0-.06.15,0,.09v.06a.69.69,0,0,0,0,.2v8.73a1,1,0,0,0,.47.85l7.5,4.64h0l0,0,.15.06.08,0a.86.86,0,0,0,.52,0l.08,0,.15-.06,0,0h0L20,17.21a1,1,0,0,0,.47-.85V7.63S20.49,7.56,20.49,7.52ZM12,4.17l1.78,1.1L8.19,8.73,6.4,7.63Zm-1,15L5.5,15.81V9.42l5.5,3.4Zm1-8.11L10.09,9.91l5.59-3.47L17.6,7.63Zm6.5,4.72L13,19.2V12.82l5.5-3.4Z"
+          />
+        </svg>
+        <h3>
+          Praesent tempor
+        </h3>
+        <p>
+          Integer luctus fringilla imperdiet, praesent felis mauris
+        </p>
+      </li>
+    </ul>
+  </section>
+  <section
+    class="c11"
+  >
+    <h2>
+      Component collection
+    </h2>
+    <p>
+      Maecenas gravida nec tellus hendrerit mattis. Donec et nibh non lacus laoreet semper. Maecenas efficitur bibendum libero eget consequat.
+    </p>
+    <ul
+      class="c12"
+    >
+      <li>
+        <h3>
+          Button
+        </h3>
+        <div>
+          <button
+            class="c13"
+          >
+            Text of button
+          </button>
+        </div>
+        <label
+          for="selectVariant"
+        >
+          Variants
+        </label>
+        <select
+          data-testid="select-variant"
+          id="selectVariant"
+          name="select"
+        >
+          <option
+            data-testid="option-variant"
+            selected=""
+            value="primary"
+          >
+            Primary
+          </option>
+          <option
+            data-testid="option-variant"
+            value="secondary"
+          >
+            Secondary
+          </option>
+          <option
+            data-testid="option-variant"
+            value="tertiary"
+          >
+            Tertiary
+          </option>
+          <option
+            data-testid="option-variant"
+            value="skeleton"
+          >
+            Skeleton
+          </option>
+        </select>
+        <span
+          style="display: flex; flex-direction: row; gap: 0.5rem;"
+        >
+          <input
+            data-testid="button-loading"
+            id="buttonLoading"
+            type="checkbox"
+          />
+          <label
+            for="buttonLoading"
+          >
+            Loading?
+          </label>
+        </span>
+      </li>
+      <li>
+        <h3>
+          Line´s Chart 
+        </h3>
+        <div>
+          <div
+            class="c14"
+            id=":r0:"
+          >
+            <svg
+              height="150"
+              width="200"
+            >
+              <g
+                transform="translate(40,10)"
+              >
+                <g
+                  color="#fff"
+                  fill="none"
+                  font-family="sans-serif"
+                  font-size="0.75rem"
+                  font-weight="500"
+                  text-anchor="middle"
+                  transform="translate(0,110)"
+                >
+                  <path
+                    class="domain"
+                    d="M0.5,6V0.5H140.5V6"
+                    stroke="currentColor"
+                  />
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0.5,0)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      y2="6"
+                    />
+                    <text
+                      dy="0.71em"
+                      fill="currentColor"
+                      y="9"
+                    >
+                      1970
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(28.5,0)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      y2="6"
+                    />
+                    <text
+                      dy="0.71em"
+                      fill="currentColor"
+                      y="9"
+                    >
+                      1980
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(56.5,0)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      y2="6"
+                    />
+                    <text
+                      dy="0.71em"
+                      fill="currentColor"
+                      y="9"
+                    >
+                      1990
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(84.5,0)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      y2="6"
+                    />
+                    <text
+                      dy="0.71em"
+                      fill="currentColor"
+                      y="9"
+                    >
+                      2000
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(112.5,0)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      y2="6"
+                    />
+                    <text
+                      dy="0.71em"
+                      fill="currentColor"
+                      y="9"
+                    >
+                      2010
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(140.5,0)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      y2="6"
+                    />
+                    <text
+                      dy="0.71em"
+                      fill="currentColor"
+                      y="9"
+                    >
+                      2020
+                    </text>
+                  </g>
+                </g>
+                <g
+                  color="#fff"
+                  fill="none"
+                  font-family="sans-serif"
+                  font-size="0.75rem"
+                  font-weight="500"
+                  text-anchor="end"
+                >
+                  <path
+                    class="domain"
+                    d="M-6,110.5H0.5V0.5H-6"
+                    stroke="currentColor"
+                  />
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,110.5)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      0.0
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,99.5)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      0.5
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,88.5)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      1.0
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,77.5)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      1.5
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,66.5)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      2.0
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,55.5)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      2.5
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,44.5)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      3.0
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,33.50000000000001)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      3.5
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,22.499999999999996)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      4.0
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,11.499999999999998)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      4.5
+                    </text>
+                  </g>
+                  <g
+                    class="tick"
+                    opacity="1"
+                    transform="translate(0,0.5)"
+                  >
+                    <line
+                      stroke="currentColor"
+                      x2="-6"
+                    />
+                    <text
+                      dy="0.32em"
+                      fill="currentColor"
+                      x="-9"
+                    >
+                      5.0
+                    </text>
+                  </g>
+                </g>
+                <path
+                  d="M140,80.065L112,86.785L84,91.983L56,95.961L28,99.406L0,101.96"
+                  style="stroke: #e41a1c; stroke-width: 5; fill: none;"
+                />
+                <path
+                  d="M140,87.433L112,89.412L84,91.615L56,94.195L28,96.578L0,98.816"
+                  style="stroke: #377eb8; stroke-width: 5; fill: none;"
+                />
+                <path
+                  d="M140,7.412L112,17.159L84,27.828L56,39.368L28,52.023L0,62.812"
+                  style="stroke: #4daf4a; stroke-width: 5; fill: none;"
+                />
+                <path
+                  d="M140,93.593L112,93.816L84,94.026L56,94.153L28,94.764L0,95.57"
+                  style="stroke: #984ea3; stroke-width: 5; fill: none;"
+                />
+                <path
+                  d="M140,109.033L112,109.184L84,109.313L56,109.412L28,109.496L0,109.571"
+                  style="stroke: #ff7f00; stroke-width: 5; fill: none;"
+                />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <div
+    class="c15"
+  >
+    <p>
+      Feito com 
+      <span>
+        ♥
+      </span>
+       por
+       
+      <a
+        href="https://johnywalves.com.br/"
+      >
+        Johny W. Alves
+      </a>
+    </p>
+  </div>
+</div>
+`;

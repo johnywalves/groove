@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should render 1`] = `
+.c0 {
+  padding: 2rem;
+  color: var(--color-neutral-100);
+}
+
+.c0 span {
+  color: var(--color-danger);
+}
+
+.c0 a {
+  color: var(--color-primary-pure);
+}
+
+.c0 a:hover {
+  text-decoration: underline;
+}
+
+<div
+  class="c0"
+>
+  <p>
+    Feito com 
+    <span>
+      ♥
+    </span>
+     por
+     
+    <a
+      href="https://johnywalves.com.br/"
+    >
+      Johny W. Alves
+    </a>
+  </p>
+</div>
+`;
