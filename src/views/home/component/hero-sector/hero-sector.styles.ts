@@ -33,24 +33,6 @@ export const DescriptionHome = styled.h2`
   }
 `
 
-export const IllustrationHome = styled.img`
-  margin: var(--20px) 0;
-  width: min(var(--320px), 100%);
-`
-
 export const JustHome = styled.p`
   font-size: 1.5rem;
-`
-
-export const CodeHome = styled.code`
-  background-color: var(--color-neutral-600);
-  font-size: 1rem;
-  font-weight: 900;
-  padding: 1rem;
-
-  display: flex;
-  flex-direction: row;
-
-  border: 1px solid var(--color-neutral-100);
-  border-radius: var(--4px);
 `

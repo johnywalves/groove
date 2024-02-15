@@ -4,8 +4,5 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: ['src/**/*.ts(x)?', '!src/**/*stories.tsx'],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
-  moduleDirectories: ['node_modules', 'src'],
-  moduleNameMapper: {
-    d3: '<rootDir>/node_modules/d3/dist/d3.min.js'
-  }
+  moduleDirectories: ['node_modules', 'src']
 }

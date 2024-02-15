@@ -16,13 +16,4 @@ describe('<HomeView />', () => {
 
     expect(container).toMatchSnapshot()
   })
-
-  it('should render the colors correctly', () => {
-    const { container } = render(<Home />)
-
-    expect(container.childNodes[1]).toHaveStyleRule(
-      'background-color',
-      'var(--color-neutral-200)'
-    )
-  })
 })

@@ -9,9 +9,6 @@ const GlobalStyles = createGlobalStyle`
         // Colors - Secondary
         --color-secondary-pure: #138ae0;
         --color-secondary-half: #138ae080;
-        // Colors - Tertiary
-        --color-tertiary-pure: #8ae013;
-        --color-tertiary-half: #8ae01380;
         // Colors
         --color-danger: #ff0000;
         --color-shadow: #a4a4a480;

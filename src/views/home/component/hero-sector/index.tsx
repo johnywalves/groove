@@ -2,9 +2,7 @@ import {
   LogoHome,
   TitleHome,
   DescriptionHome,
-  IllustrationHome,
   JustHome,
-  CodeHome,
   HeroHome
 } from './hero-sector.styles'
 
@@ -22,17 +20,7 @@ const HeroSector = ({
     />
     <TitleHome>{title}</TitleHome>
     <DescriptionHome>{description}</DescriptionHome>
-    <IllustrationHome
-      src="/img/hero.svg"
-      alt="Woman in jacket running into an atom"
-    />
     <JustHome>just run</JustHome>
-    <CodeHome>
-      <p>
-        [npx or yarn] create next-app -e
-        https://github.com/johnywalves/react-next-boilerplate
-      </p>
-    </CodeHome>
   </HeroHome>
 )
 
